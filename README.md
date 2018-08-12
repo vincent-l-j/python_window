@@ -47,13 +47,13 @@ Configuration is done via a JSON file located at `~/.config/pygrid.json` which w
 ```bash
 $ sudo apt-get install git python3-gi python3-xlib
 $ cd <place-you-want-to-store-pygrid>
-$ git clone https://github.com/mjs7231/pygrid.git
-$ cd pygrid && ./pygrid.py
+$ git clone https://github.com/vincent-l-j/python_window.git
+$ cd python_window && ./pygrid.py
 ```
 
 To start at boot I simply added the following line to *Startup Applications*.
 ```bash
-/usr/bin/python3 <full-path>/pygrid/pygrid.py
+/usr/bin/python3 <full-path>/.python_window/pygrid.py
 ```
  
 
